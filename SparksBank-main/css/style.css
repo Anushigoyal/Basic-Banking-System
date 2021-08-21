@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.nave_space {
+  background-color: black;
+}
+.heading {
+  width: 97%;
+}
+.main_section {
+  width: 100%;
+  height: 89vh;
+  background-image: url(../anu.jpg);
+  background-size: 100% 100%;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+}
+h3 {
+  color: black;
+}
+
+@media only screen and (orientation: portrait) {
+  .intro {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .act {
+    padding-bottom: 100px;
+  }
+}
